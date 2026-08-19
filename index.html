@@ -3,161 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhondhooni Preschool - Building Bright Futures</title>
+    <title>Dhondhooni Little Learners Preschool</title>
+    <!-- This script loads all the modern styling automatically -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Faruma&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #633F83;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        header img {
-            max-width: 200px;
-            margin-bottom: 10px;
-        }
-        main {
-            margin: 20px;
-        }
-        .button {
-            display: inline-block;
-            margin: 10px 0;
-            padding: 10px 20px;
-            color: white;
-            background-color: #4caf50;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .button:hover {
-            background-color: #45a049;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            width: 100%;
-        }
-        .social-links {
-            text-align: center;
-            margin-top: 10px;
-        }
-        .social-links a {
-            display: inline-block;
-            margin: 5px 15px;
-            padding: 10px;
-            color: white;
-            background-color: #800080; /* Purple background */
-            border-radius: 50%;
-            text-decoration: none;
-        }
-        .social-links a img {
-            max-width: 20px;
-            vertical-align: middle;
-        }
-        .social-links a:hover {
-            background-color: #a349a4; /* Lighter purple */
-        }
-        section {
-            margin-bottom: 20px;
-        }
-		  function applyAction() {
-    alert("You clicked the Apply button!");
-    // Add more actions here, like redirecting to an application form
-  }
-</script>
-
-<style>
-  .apply-button {
-    transition: transform 0.3s, opacity 0.3s;
-  }
-  .apply-button:hover {
-    transform: scale(1.1);
-    opacity: 0.8;
-    cursor: pointer;
-  }
-
-		
+        /* A little bit of custom smooth scrolling */
+        html { scroll-behavior: smooth; }
     </style>
 </head>
-<body>
-    <header>
-        <img src="../logohead.png" alt="Dhondhooni Logo">
-        <h1>&nbsp;Applications Home Page</h1>
+<body class="min-h-screen bg-slate-50 font-sans text-slate-800">
+
+    <!-- Header -->
+    <header class="bg-[#633F83] text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between">
+            <div class="flex items-center space-x-4">
+                <img src="logohead2.png" alt="Dhondhooni Logo" class="w-48 sm:w-64 md:w-[300px] h-auto object-contain" />
+            </div>
+            <nav class="mt-4 sm:mt-0">
+                <ul class="flex space-x-6 text-sm font-medium">
+                    <li><a href="#about" class="hover:text-purple-200 transition-colors">About Us</a></li>
+                    <li><a href="#apply" class="hover:text-purple-200 transition-colors">Admissions</a></li>
+                    <li><a href="#jobs" class="hover:text-purple-200 transition-colors">Careers</a></li>
+                    <li><a href="#contact" class="hover:text-purple-200 transition-colors">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <main>
-        <section>
-            <h2>Welcome to Dhondhooni Preschool</h2>
-            <p>Where every child's journey of growth begins! Join us in fostering creativity, curiosity, and confidence in a nurturing environment.</p>
+        <!-- Hero Section -->
+        <section id="about" class="max-w-5xl mx-auto px-4 py-16 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-[#633F83] mb-6">
+                Building Bright Futures
+            </h2>
+            <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                Where every child's journey of growth begins! Join us in fostering creativity, curiosity, and confidence in a nurturing environment.
+            </p>
         </section>
-		
-<table width=90% border="0" align="center">
-  <tbody>
-    <tr>
-     	
-		     <tr>	<td valign="bottom">
-           
-				  <p align="center"><strong>ADMISSION FOR 2026</strong></p>
-               <p align="center">To enroll you child to the next academic year (starting January 2026), please use the link to apply&nbsp; &nbsp; &nbsp;</p>
-                  <p align="center">ޖަނަވަރީ 2026 ގައި ފެށޭ ތައުލީމީ އަހަރު ސްކޫލަށް ވެއްދުމަށް </p>
-<strong>
-		  <div align="center">
- 				 <a href="https://forms.gle/uNCui3QRdUectmQ46">
-			     <img src="../school_apply_button2026.png" alt="Apply Button" class="apply-button" />
-				 </a> <p></p>
-		  </div>
 
-			</strong>
-				 </td> </tr>
-	  </tr>
-	  <p align="center"></p>
-		<tr>
+        <!-- Applications Section -->
+        <section id="apply" class="bg-white py-16 border-y border-slate-200 shadow-sm">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">Admissions & Opportunities</h2>
+                    <p class="text-slate-500 mt-2">Select the appropriate form below to apply</p>
+                </div>
 
-		<td valign="bottom" bgcolor="#D7D7D7">
-		   <p align="center"><strong>JOB OPPORTUNITIES&nbsp;</strong></p>
-		   <p align="center">If you are looking for a job, use the following link to apply.&nbsp;&nbsp;</p>
-<strong>
-		  <div align="center">
- 				 <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7CDo-vg8PA8khWt8bhQDNeUJUN0VwHFRO7rLij0-dxtDh-g/viewform">
- 				   <img src="../job_apply_button.png" alt="Apply Button" class="apply-button" />
-				 </a><p></p>
-			</div>
+                <!-- Admissions Row -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <!-- 2027 Admissions (Male' Campus) -->
+                    <div class="flex flex-col items-center p-8 bg-purple-50 rounded-2xl shadow-sm border border-purple-100 hover:shadow-md transition-shadow">
+                        <div class="bg-purple-100 text-purple-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
+                            UPCOMING
+                        </div>
+                        <h3 class="text-xl font-bold text-purple-900 mb-1">Admission for 2027</h3>
+                        <h4 class="text-md font-semibold text-purple-800 mb-2">Bageecha Campus (Male')</h4>
+                        <p class="text-sm text-center text-purple-700 mb-6">
+                            To enroll your child for the academic year starting January 2027.<br />
+                            <span class="font-['Faruma',serif] mt-1 block">ޖަނަވަރީ 2027 ގައި ފެށޭ ތައުލީމީ އަހަރު ސްކޫލަށް ވެއްދުމަށް</span>
+                        </p>
+                        <a href="https://forms.gle/Q38xy28qFzVLZuQU6" target="_blank" rel="noopener noreferrer" class="block transform hover:-translate-y-1 hover:shadow-xl transition-all duration-300 w-full max-w-[280px] mt-auto">
+                            <div class="relative bg-[#633F83] rounded-2xl shadow-lg pt-10 pb-5 px-4 flex flex-col items-center">
+                                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#f43f5e] text-white px-4 py-1.5 rounded-lg shadow-md w-[90%] text-center border-b-4 border-[#e11d48] z-10">
+                                    <div class="text-[10px] font-bold tracking-widest uppercase opacity-90">Academic Year</div>
+                                    <div class="text-2xl font-extrabold tracking-wider leading-tight">2027</div>
+                                </div>
+                                <div class="text-white text-2xl font-['Faruma',serif] mb-1 mt-2 text-center" dir="rtl">ސްކޫލަށް ވަނުމަށް އެދޭ ފޯމު</div>
+                                <div class="text-white font-bold text-[1.1rem] text-center tracking-wide">School Application Form</div>
+                            </div>
+                        </a>
+                    </div>
 
-			</strong>	
-			
-			
-			
-		</td>
-    </tr>
-  </tbody>
-</table>
-		
-		
+                    <!-- 2027 Admissions (Hulhumale' Campus) -->
+                    <div class="flex flex-col items-center p-8 bg-indigo-50 rounded-2xl shadow-sm border border-indigo-100 hover:shadow-md transition-shadow">
+                        <div class="bg-indigo-100 text-indigo-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
+                            COMING SOON
+                        </div>
+                        <h3 class="text-xl font-bold text-indigo-900 mb-1">Admission for 2027</h3>
+                        <h4 class="text-md font-semibold text-indigo-800 mb-2">Hulhumale' Campus</h4>
+                        <p class="text-sm text-center text-indigo-700 mb-6">
+                            Admission will open once registration is complete, Insha Allah in November 2026.
+                        </p>
+                        <div class="block w-full max-w-[280px] opacity-70 grayscale cursor-not-allowed mt-auto">
+                            <div class="relative bg-[#633F83] rounded-2xl shadow-lg pt-10 pb-5 px-4 flex flex-col items-center">
+                                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-gray-500 text-white px-4 py-1.5 rounded-lg shadow-md w-[90%] text-center border-b-4 border-gray-700 z-10">
+                                    <div class="text-[10px] font-bold tracking-widest uppercase opacity-90">Academic Year</div>
+                                    <div class="text-2xl font-extrabold tracking-wider leading-tight">2027</div>
+                                </div>
+                                <div class="text-white text-2xl font-['Faruma',serif] mb-1 mt-2 text-center" dir="rtl">ސްކޫލަށް ވަނުމަށް އެދޭ ފޯމު</div>
+                                <div class="text-white font-bold text-[1.1rem] text-center tracking-wide">School Application Form</div>
+                            </div>
+                        </div>
+                    </div>
 
-        <section>
-            <h2>Stay Connected</h2>
-            <p>Follow us on social media for updates, insights, and exciting moments from Dhondhooni Preschool</p>
-            <div class="social-links">
-                <a href="https://facebook.com/DhondhooniPreschool">
-                     Facebook
-                </a>
-                <a href="https://www.instagram.com/dhondhoonipreschool/">
-                     Instagram
-                </a>
-                <a href="https://youtube.com/dhondhoonipreschool">
-                     YouTube
-                </a>
+                    <!-- 2026 Admissions (Ongoing) -->
+                    <div class="flex flex-col items-center p-8 bg-emerald-50 rounded-2xl shadow-sm border border-emerald-100 hover:shadow-md transition-shadow">
+                        <div class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
+                            ONGOING
+                        </div>
+                        <h3 class="text-xl font-bold text-emerald-900 mb-2">Admission for 2026</h3>
+                        <p class="text-sm text-center text-emerald-700 mb-6">
+                            To enroll your child for the ongoing 2026 academic year.<br />
+                            <span class="font-['Faruma',serif] mt-1 block">2026 ވަނަ އަހަރުގެ ތައުލީމީ އަހަރަށް ވެއްދުމަށް</span>
+                        </p>
+                        <a href="https://forms.gle/AhM5eUxcrxpfphZj7" target="_blank" rel="noopener noreferrer" class="block transform hover:-translate-y-1 hover:shadow-xl transition-all duration-300 w-full max-w-[280px] mt-auto">
+                            <div class="relative bg-[#633F83] rounded-2xl shadow-lg pt-10 pb-5 px-4 flex flex-col items-center">
+                                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#f43f5e] text-white px-4 py-1.5 rounded-lg shadow-md w-[90%] text-center border-b-4 border-[#e11d48] z-10">
+                                    <div class="text-[10px] font-bold tracking-widest uppercase opacity-90">Academic Year</div>
+                                    <div class="text-2xl font-extrabold tracking-wider leading-tight">2026</div>
+                                </div>
+                                <div class="text-white text-2xl font-['Faruma',serif] mb-1 mt-2 text-center" dir="rtl">ސްކޫލަށް ވަނުމަށް އެދޭ ފޯމު</div>
+                                <div class="text-white font-bold text-[1.1rem] text-center tracking-wide">School Application Form</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Jobs Row -->
+                <div class="grid grid-cols-1 max-w-2xl mx-auto">
+                    <!-- Job Opportunities -->
+                    <div id="jobs" class="flex flex-col items-center p-8 bg-blue-50 rounded-2xl shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                        <div class="bg-blue-100 text-blue-800 text-xs font-bold px-3 py-1 rounded-full mb-4">
+                            WE'RE HIRING
+                        </div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-2">Job Opportunities</h3>
+                        <p class="text-sm text-center text-blue-700 mb-6">
+                            If you are looking for a job, use the following link to apply.
+                        </p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7CDo-vg8PA8khWt8bhQDNeUJUN0VwHFRO7rLij0-dxtDh-g/viewform" target="_blank" rel="noopener noreferrer" class="block transform hover:-translate-y-1 hover:shadow-xl transition-all duration-300 w-full max-w-[280px] mt-auto">
+                            <div class="relative bg-[#633F83] rounded-2xl shadow-lg py-6 px-4 flex flex-col items-center border-b-4 border-[#4d2d69]">
+                                <div class="text-white text-3xl font-['Faruma',serif] mb-2 text-center" dir="rtl">ވަޒީފާއަށް އެދޭ ފޯމު</div>
+                                <div class="text-white font-bold text-[1.2rem] text-center tracking-wide mt-1">Job Application Form</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
-    <footer>
-      <p>Contact Us: Dhondhooni Little Learners Preschool, Ma. Shaheen, Buruzu Magu, Male' 20168, Maldives | Phone: +960 3330669, +960 7960669 | Email: mail@dhondhooni.edu.mv</p>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-[#333333] text-slate-300 py-12 border-t-4 border-[#633F83]">
+        <div class="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-white text-lg font-bold mb-4">Contact Us</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-start">
+                        <!-- Map Pin Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-3 text-purple-400 shrink-0 mt-0.5"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Dhondhooni Little Learners Preschool<br />Ma. Shaheen, Buruzu Magu<br />Male' 20168, Maldives</span>
+                    </li>
+                    <li class="flex items-center">
+                        <!-- Phone Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-3 text-purple-400 shrink-0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>+960 3330669, +960 7960669</span>
+                    </li>
+                    <li class="flex items-center">
+                        <!-- Mail Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 mr-3 text-purple-400 shrink-0"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        <a href="mailto:mail@dhondhooni.edu.mv" class="hover:text-white transition-colors">mail@dhondhooni.edu.mv</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col md:items-end justify-center">
+                <h3 class="text-white text-lg font-bold mb-4">Stay Connected</h3>
+                <p class="text-sm mb-4 md:text-right max-w-sm">Follow us on social media for updates, insights, and exciting moments.</p>
+                <div class="flex space-x-4">
+                    <a href="https://facebook.com/DhondhooniPreschool" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#633F83] text-white rounded-full hover:bg-[#800080] transition-colors" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </a>
+                    <a href="https://www.instagram.com/dhondhoonipreschool/" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#633F83] text-white rounded-full hover:bg-[#800080] transition-colors" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://youtube.com/dhondhoonipreschool" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#633F83] text-white rounded-full hover:bg-[#800080] transition-colors" aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-5xl mx-auto px-4 mt-8 pt-8 border-t border-gray-700 text-sm text-center">
+            &copy; 2026 Dhondhooni Preschool. All rights reserved.
+        </div>
     </footer>
+
 </body>
 </html>
